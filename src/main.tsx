@@ -1,0 +1,18 @@
+/**
+ * (C) Stefan Hodrius - Die Solar Nutrition App unterliegt der GPL GNU General Public License
+ * und kann mit Namensnennung und unter Beibehaltung der Lizenzbedingungen frei weiterverwendet werden.
+ */
+
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.tsx'
+import { LanguageProvider } from './i18n'
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <LanguageProvider>
+      <App />
+    </LanguageProvider>
+  </StrictMode>,
+)

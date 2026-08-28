@@ -1,0 +1,18 @@
+{
+  "short_name": "SolarNutrition",
+  "name": "Solar Nutrition Database & App",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "theme_color": "#f97316",
+  "display": "standalone",
+  "orientation": "portrait",
+  "description": "Circadian Solar Nutrition database, Growth Zone checker & recipes based on True Solar Time."
+}

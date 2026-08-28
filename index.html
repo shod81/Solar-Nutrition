@@ -1,0 +1,80 @@
+<!doctype html>
+<!--
+  (C) Stefan Hodrius - Die Solar Nutrition App unterliegt der GPL GNU General Public License
+  und kann mit Namensnennung und unter Beibehaltung der Lizenzbedingungen frei weiterverwendet werden.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#f97316" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="SolarNutrition" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+        <!-- Primary Meta Tags -->
+    <title>Solar Nutrition Database &amp; Circadian Diet App</title>
+    <meta name="title" content="Solar Nutrition Database &amp; Circadian Diet App" />
+    <meta name="description" content="Circadian Solar Nutrition database, Growth Zone food rules &amp; 676+ recipes based on True Solar Time." />
+    <meta name="keywords" content="Solar Nutrition, Circadian Diet, True Solar Time, Adano Ley, Atom Bergstrom, Growth Zones, Tree Foods, Root Vegetables, PWA" />
+    <meta name="author" content="Stefan Hodrius" />
+
+    <!-- Open Graph / Facebook / WhatsApp / LinkedIn / iMessage / Discord / Telegram -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SolarNutrition" />
+    <meta property="og:title" content="Solar Nutrition Database &amp; Circadian Diet System" />
+    <meta property="og:description" content="676+ Rezepte &amp; Nahrungsmittel-Regeln basierend auf Wahrer Sonnenzeit &amp; 3 Wachstumszonen (Baum • Strauch • Erdwurzel)." />
+    <meta property="og:image" content="/og-image.svg" />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Solar Nutrition App Social Preview - Green Apple &amp; Solar Corona Logo" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@SolarNutrition" />
+    <meta name="twitter:title" content="Solar Nutrition Database &amp; Circadian Diet System" />
+    <meta name="twitter:description" content="Discover 676+ recipes &amp; food rules aligned with True Solar Time and growth zones." />
+    <meta name="twitter:image" content="/twitter-card.svg" />
+    <meta name="twitter:image:alt" content="Solar Nutrition App Twitter Social Card" />
+
+    <!-- Schema.org JSON-LD Structured Data for Search Engines & Social Indexers -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "SolarNutrition",
+      "alternateName": "Solar Nutrition App & Database",
+      "description": "Circadian Solar Nutrition database, Growth Zone checker & recipes based on True Solar Time.",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Stefan Hodrius"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch((err) => {
+            console.log('ServiceWorker registration failed:', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
