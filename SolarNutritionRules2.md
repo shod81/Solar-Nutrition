@@ -219,7 +219,7 @@ Core Rules:
 | Mandeln | Almonds | ERSTE NAHRUNG DES TAGES (07:00-09:00 Solarzeit), roh & eingeweicht. Reguliert Salzsäure. | FIRST FOOD OF THE DAY (07:00-09:00 Solar Time), raw & soaked. Regulates stomach acid. |
 | Ahornsirup | Maple Syrup | Vom Saft des Ahornbaums. | From the sap of the maple tree. |
 | Vanille | Vanilla | Ranke an Bäumen. Sowohl für Morgen als auch Mittag geeignet. | Vine that grows on trees. Suitable for both Morning and Midday windows. |
-| Adanos Cobalamin Tonic |  | B12 Booster: Arabica-Kaffee + Ahornsirup + dunkler Backkakao. | B12 Booster: Arabica coffee + maple syrup + dark baking cacao. |
+| Adanos Cobalamin Tonic | Adano's Cobalamin Tonic | B12 Booster: Arabica-Kaffee + Ahornsirup + dunkler Backkakao. | B12 Booster: Arabica coffee + maple syrup + dark baking cacao. |
 | Umeboshi-Pflaume | Umeboshi Plum | Morgen-Hormonbalancer, allein verzehren. | Morning hormone balancer, eat alone. |
 | Calvados | Calvados (Apple Brandy) | Nur 100% aus Äpfeln (Baum). | Only 100% from apples (tree). |
 | Kirschwasser | Kirschwasser (Cherry Brandy) | Aus Kirschen (Baum). | Made from cherries (tree). |
